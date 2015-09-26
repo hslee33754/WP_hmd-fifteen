@@ -8,6 +8,10 @@ Desctiption:
 Version: 1.0
 */
 
+//Create Page Excerpts
+add_post_type_support('page', 'excerpt');
+//
+
 //This theme uses wp_nav_menu() in two locations.
 register_nav_menus(array(
     'main-menu' => __('Main', 'HMD-Fifteen')
