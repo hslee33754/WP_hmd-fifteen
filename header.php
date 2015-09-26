@@ -31,7 +31,7 @@
  <body <?php body_class(); ?>>
  	<header>
  		<div id="top-wrapper">
- 			<div id="bizlogo"> <a href="<?php echo site_url();?>"><img class="logo" alt="logo" src="<?php bloginfo( 'template_directory' ) ?>/images/hmdlogo.png" /></a>
+ 			<div id="bizlogo"> <a href="<?php echo home_url();?>"><img class="logo" alt="logo" src="<?php bloginfo( 'template_directory' ) ?>/images/hmdlogo.png" /></a>
  			</div>
  			<div id="bizname">
  				<h1><?php bloginfo('name');?></h1>
