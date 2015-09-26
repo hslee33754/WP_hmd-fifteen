@@ -693,7 +693,7 @@ input[type="submit"]:hover, input[type="button"]:hover {
    			display:block;
 		}
 		
-        .side-menu{
+        .side1{ /* hide side menu */
             display: none;
         }
 		
